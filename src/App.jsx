@@ -24,6 +24,7 @@ function App() {
       <img src="https://marketplace.canva.com/EAFOSCtQ7p0/2/0/1600w/canva-orange-and-white-modern-find-your-dream-house-banner-6F7OhzOb6W8.jpg" alt="" />
     </div>
       
+      <h1>Hello class</h1>
     </>
   )
 }
