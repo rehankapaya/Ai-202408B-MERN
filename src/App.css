@@ -1,0 +1,16 @@
+nav{
+  display: flex;
+  background-color: red;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  list-style: none;
+}
+.banner img{
+  width: 100%;
+}
