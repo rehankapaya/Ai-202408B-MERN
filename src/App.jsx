@@ -1,30 +1,41 @@
 import { useState } from 'react'
 import './App.css'
-
+import NavbarComponent from './components/NavbarComponent'
+import HeroSection from './components/HeroSection'
+import LogoCloud from './components/LogoCloud'
+import FeaturesSection from './components/FeaturesSection'
+import Testimonials from './components/Testimonials'
+import CTASection from './components/CTASection'
+import Footer from './components/Footer'
 function App() {
- 
+
   return (
     <>
-    <nav>
-      <img src="/vite.svg" alt="" />
-      <ul>
-        <li>Link</li>
-        <li>Link</li>
-        <li>Link</li>
-        <li>Link</li>
-        <li>Link</li>
-      </ul>
-      <div className="act-btns">
-        <button>Login</button>
-        <button>Signup</button>
-      </div>
-    </nav>
+      <div class="bg-slate-50 text-slate-900 smooth-scroll">
 
-    <div className="banner">
-      <img src="https://marketplace.canva.com/EAFOSCtQ7p0/2/0/1600w/canva-orange-and-white-modern-find-your-dream-house-banner-6F7OhzOb6W8.jpg" alt="" />
-    </div>
-      
-      <h1>Hello class</h1>
+        {/* <!-- NAVIGATION --> */}
+        <NavbarComponent />
+        {/* <NavbarComponent /> */}
+
+        {/* <!-- HERO SECTION --> */}
+        <HeroSection />
+        {/* <HeroSection /> */}
+
+        {/* <!-- LOGO CLOUD --> */}
+        <LogoCloud />
+
+        {/* <!-- FEATURES SECTION --> */}
+        <FeaturesSection />
+
+        {/* <!-- TESTIMONIALS --> */}
+        <Testimonials />
+
+        {/* <!-- CTA SECTION --> */}
+        <CTASection />
+
+        {/* <!-- FOOTER --> */}
+        <Footer />
+      </div>
     </>
   )
 }
